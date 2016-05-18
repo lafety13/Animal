@@ -29,8 +29,3 @@ $cat = new Cat('garfield');
 
 echo $cat->getName() === 'garfield' && 
 	 $cat->meow() === 'Cat garfield is saying meow' ? true : 0;
-echo "<br>";
-$a = 1;
-$a++;
-
-echo $a++;
